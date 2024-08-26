@@ -1,0 +1,20 @@
+.heroCont {
+    width: 95%;
+    background-color: black;
+    font-family: "Merienda", cursive;
+    box-shadow: 0 0 15px 5px rgba(128, 0, 128, 0.75);
+    font-size: 25px;
+    outline: 3px solid purple;
+    outline-offset: 5px;
+    border-radius: 10px;
+    box-shadow:
+        0 0 15px 5px rgba(128, 0, 128, 0.75),
+        /* Border glow */
+        0 0 20px 10px rgba(128, 0, 128, 0.5);
+    /* Outline glow */
+    background-image: url('../../assets/images/astroboy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
